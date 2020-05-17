@@ -10,7 +10,7 @@ This program manages your customer print Jobs.
 
 2) Select Power Apps.
 
-![](images/office1.png)
+<a href="images/office1.png"><img src="images/office1.png" width="500"></a>
 
 
 3)  
