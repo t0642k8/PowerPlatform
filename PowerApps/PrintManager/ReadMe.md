@@ -14,7 +14,7 @@ This program manages your customer print Jobs.
     <td>&nbsp;</td><td>&nbsp;</td>
   </tr>
     <tr>
-    <td>3) Select Create apps.</td><td><a href="images/office1.png"><img src="images/office1.png" width="250"></a></td>
+    <td>3) When the next windows opens Select Create apps (at the red arrow).</td><td><a href="images/office1.png"><img src="images/office1.png" width="250"></a></td>
   </tr>
   
   
