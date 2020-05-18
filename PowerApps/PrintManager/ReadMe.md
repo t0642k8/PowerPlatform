@@ -18,16 +18,13 @@ This program manages your customer print Jobs.
   </tr>
   
   <tr>
-    <td>4) Select Power Apps.</td><td><a href="images/office1.png"><img src="images/office1.png" width="250"></a></td>
-  </tr>
-      <tr>
     <td>&nbsp;</td><td>&nbsp;</td>
   </tr>
     <tr>
-    <td>5) When the next windows opens, select create apps (at the red arrow).</td><td><a href="images/create.png"><img src="images/create.png" width="250"></a></td>
+    <td>4) In the dialog box "Canvas from Blank", enter a name for your app It is a good idea not to use spaces in the appname at this point. You will have time later to add spaces. For name enter PrintMaster" Ensure the format is set to Tablet.</td><td><a href="images/appName.png"><img src="images/appName.png" width="250"></a></td>
   </tr>  
    <tr>
-    <td>6) Select canvas Apps.</td><td><a href="images/canvas.png"><img src="images/canvas.png" width="250"></a></td>
+    <td>5) You should see this screen. On the left is a list of the app compoments. Notice App and welcome screen are already created for you..</td><td><a href="images/start1.png"><img src="images/start1.png" width="250"></a></td>
   </tr>
       <tr>
     <td>&nbsp;</td><td>&nbsp;</td>
