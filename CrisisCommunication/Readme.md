@@ -6,14 +6,14 @@ I decided to start over and use the concepts that Microsoft used.
 
 <Table>
   <tr>
-    <td>1) Logon to office 365 www.office.com and access SharePoint.</td>
+    <td>1) Logon to office 365  (www.office.com) and access SharePoint.</td>
     <td> &nbsp; </td>
   </tr>
       <tr>
     <td>&nbsp;</td><td>&nbsp;</td>
   </tr>
     <tr>
-    <td>2) Create a site and name it Crisis Communications.</td>
+    <td>2) Create a site and name it CrisisCommunications. You can pick any name but make sure it is one word</td>
     <td> &nbsp; </td>
   </tr>
   
