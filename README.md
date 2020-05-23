@@ -3,8 +3,10 @@
 ### Recipes to build Applications for your orginization
 
 --------------------------
-### Power Apps                                    Allows you to create programs for you orginizations in office 365
-
+### Power Apps                                   
+  > Crisis Communications App
+  
+  > 
 
 ### Power BI
 
