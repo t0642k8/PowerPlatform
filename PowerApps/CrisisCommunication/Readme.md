@@ -1,0 +1,195 @@
+# How to build the Crisis Communication App.
+
+## Step 1 setting up SharePoint
+
+The Microsoft Crisis Communications App is a great concept and it has potential used at our workPlace. As I was attempting to modify it
+ to make it fit better for our orginization, but every time I make a change, it would create more problems.
+
+I decided to start over and use the concepts that Microsoft used.
+
+<Table>
+  <tr>
+    <td>1) Logon to office 365  (www.office.com) .</td>
+    <td> &nbsp; </td>
+  </tr>
+      <tr>
+    <td>&nbsp;</td><td>&nbsp;</td>
+  </tr>
+    <tr>
+    <td>2) Click on SharePoint </td>
+    <td><a href="images/s1_SharePointStart.png"><img src="images/s1_SharePointStart.png" width="250"></a></td>
+  </tr>
+
+   <tr>   
+    <td>&nbsp;</td><td>&nbsp;</td>
+  </tr>
+    <tr>
+    <td>3) Create a site and name it CrisisCommunications. You can pick any name but make sure it is one word.
+           There is another place to put the displayed title of the App with the format and spaces you want but  
+           for now press OK.</td>
+     <td><a href="images/s2_CreateSite.png"><img src="images/s2_CreateSite.png" width="250"></a></td>
+  </tr>
+  <tr>  
+    <td>&nbsp;</td><td>&nbsp;</td>
+  </tr>
+    <tr>
+    <td>4) When the site is created click on the gear in the upper right .  (See arrow in picture)</td>
+    <td><a href="images/gear.png"><img src="images/gear.png" width="250"></a></td>
+  </tr> 
+  <tr>  
+     <td>&nbsp;</td><td>&nbsp;</td>
+   <tr>
+    <td>5) Then select add an app.</td>
+    <td><a href="images/addanapp.png"><img src="images/addanapp.png" width="250"></a></td>
+  </tr>
+
+   <tr>  
+    <td>&nbsp;</td><td>&nbsp;</td>
+  </tr>
+
+  <tr>
+     <td> 6)  Then select a custom List   </td>
+     <td>   <a href="images/S6_CustomList.png"><img src="images/S6_CustomList.png" width="250"></a></td>
+  </tr>
+
+   <tr>  
+    <td>&nbsp;</td><td>&nbsp;</td>
+  </tr>
+
+  <tr>
+    <td>7) A windows will appear this is a place to enter a name for the list. It should have no spaces, but you change it later</td>
+    <td><a href="images/s7_Create.png"><img src="images/s7_Create.png" width="250"></a></td>
+  </tr>
+  
+  <tr>  
+    <td>&nbsp;</td><td>&nbsp;</td>
+  </tr>
+  
+   <tr>
+    <td> 8) Enter the name of "AppSettings". Then press create.  </td>
+    <td><a href="images/s8_Appset.png"><img src="images/s8_Appset.png" width="250"></a></td>
+  </tr>   
+    
+  <tr>  
+    <td>&nbsp;</td><td>&nbsp;</td>
+  </tr>
+
+  <tr>
+     <td> 9) Can you click on the name of the list you created.   </td>
+     <td>   <a href="images/s9_OpenCreated.png"><img src="images/s9_OpenCreated.png" width="250"></a></td>
+  </tr>
+
+  
+  <tr>  
+    <td>&nbsp;</td><td>&nbsp;</td>
+  </tr>
+
+  <tr>
+     <td> 10) When the new list is created, go to the upper right and click on the gear.   </td>
+     <td>   <a href="images/S10_Gear.png"><img src="images/S10_Gear.png" width="150"></a></td>
+  </tr>
+
+   <tr>  
+    <td>&nbsp;</td><td>&nbsp;</td>
+  </tr>
+
+  <tr>
+    <td> 11) In the window that opens select "List Settings".</td>
+    <td><a href="images/S11_ListSettings.png"><img src="images/S11_ListSettings.png" width="250"></a></td>
+  </tr>
+  
+  <tr>  
+    <td>&nbsp;</td><td>&nbsp;</td>
+  </tr>
+  
+   <tr>
+    <td> 12) Below the columns, click on the link add column.  </td>
+    <td><a href="images/S12_AddColumn.png"><img src="images/S12_AddColumn.png" width="150"></a></td>
+  </tr>   
+
+  
+  <tr>  
+    <td>&nbsp;</td><td>&nbsp;</td>
+  </tr>
+  
+   <tr>
+    <td> 13) In the column name enter "value" and in the maximum number of Characters enter 30. Then press OK.  </td>
+    <td><a href="images/S13_Column.png"><img src="images/S13_Column.png" width="250"></a></td>
+  </tr>   
+  
+  <tr>  
+    <td>&nbsp;</td><td>&nbsp;</td>
+  </tr>
+  
+   <tr>
+    <td> 14) Next Select permissions.  </td>
+    <td><a href="images/S14_permissions.png"><img src="images/S14_permissions.png" width="250"></a></td>
+  </tr>   
+
+  <tr>  
+    <td>&nbsp;</td><td>&nbsp;</td>
+  </tr>
+
+  <tr>
+     <td> 15) Click on the site owners group. This is the place you will put everyone that can change and administer the program   </td>
+     <td>   <a href="images/S15_OwnersClick.png"><img src="images/S15_OwnersClick.png" width="150"></a></td>
+  </tr>
+
+   <tr>  
+    <td>&nbsp;</td><td>&nbsp;</td>
+  </tr>
+
+  <tr>
+    <td> 16) Click on add new".</td>
+    <td><a href="images/S16_selectNew.png"><img src="images/S16_selectNew.png" width="250"></a></td>
+  </tr>
+  
+  <tr>  
+    <td>&nbsp;</td><td>&nbsp;</td>
+  </tr>
+  
+   <tr>
+    <td> 17) Belomn.  </td>
+    <td><a href="images/S12_AddColumn.png"><img src="images/S12_AddColumn.png" width="150"></a></td>
+  </tr>   
+
+  
+  <tr>  
+    <td>&nbsp;</td><td>&nbsp;</td>
+  </tr>
+  
+   <tr>
+    <td> 18) In the column name enter.  </td>
+    <td><a href="images/S13_Column.png"><img src="images/S13_Column.png" width="250"></a></td>
+  </tr>   
+  
+  <tr>  
+    <td>&nbsp;</td><td>&nbsp;</td>
+  </tr>
+  
+   <tr>
+    <td> 19) Next Select permissions.  </td>
+    <td><a href="images/S14_permissions.png"><img src="images/S14_permissions.png" width="250"></a></td>
+  </tr>   
+
+  <tr>  
+    <td>&nbsp;</td><td>&nbsp;</td>
+  </tr>
+  
+   <tr>
+    <td> 20) Belomn.  </td>
+    <td><a href="images/S12_AddColumn.png"><img src="images/S12_AddColumn.png" width="150"></a></td>
+  </tr>   
+
+  
+  <tr>  
+    <td>&nbsp;</td><td>&nbsp;</td>
+  </tr>
+  
+   <tr>
+    <td> 21) In the column name enter.  </td>
+    <td><a href="images/S13_Column.png"><img src="images/S13_Column.png" width="250"></a></td>
+  </tr>  
+
+
+  </table>
