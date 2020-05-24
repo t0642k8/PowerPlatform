@@ -16,7 +16,7 @@ I decided to start over and use the concepts that Microsoft used.
   </tr>
     <tr>
     <td>2) Click on Power Applications </td>
-    <td><a href="images/pa1_ClickPowerApp.png"><img src="images/pa1_ClickPowerApp.png" width="250"></a></td>
+    <td><a href="images2/pa1_ClickPowerApp.png"><img src="images2/pa1_ClickPowerApp.png" width="250"></a></td>
   </tr>
 
    <tr>   
@@ -24,14 +24,14 @@ I decided to start over and use the concepts that Microsoft used.
   </tr>
     <tr>
     <td>3) Click on create.</td>
-     <td><a href="images/pa2_clickCreate.png"><img src="images/pa2_clickCreate.png" width="250"></a></td>
+     <td><a href="images2/pa2_clickCreate.png"><img src="images2/pa2_clickCreate.png" width="250"></a></td>
   </tr>
   <tr>  
     <td>&nbsp;</td><td>&nbsp;</td>
   </tr>
     <tr>
     <td>4) Click on blank canvas app.  (See arrow in picture)</td>
-    <td><a href="images/pa2_clickCreate.png"><img src="images/pa2_clickCreate.png" width="250"></a></td>
+    <td><a href="images2/pa2_clickCreate.png"><img src="images2/pa2_clickCreate.png" width="250"></a></td>
   </tr> 
   <tr>  
      <td>&nbsp;</td><td>&nbsp;</td>
