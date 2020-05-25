@@ -9,7 +9,7 @@ I decided to start over and use the concepts that Microsoft used.
 
 <Table>
   <tr>
-   <td> <font size="+2"> 1) Logon to office 365  (www.office.com). </font></td>
+   <td> <font size="+6"> 1) Logon to office 365  (www.office.com). </font></td>
     <td> &nbsp; </td>
   </tr>
       <tr>
