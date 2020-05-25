@@ -6,9 +6,8 @@ The Microsoft Crisis Communications App is a great concept and it has potential 
  to make it fit better for our orginization, but every time I make a change, it would create more problems.
 
 I decided to start over and use the concepts that Microsoft used.
-{
-  "size": 20
-}
+  
+  
 <Table>
   <tr>
    <td> 1) Logon to office 365  (www.office.com). </td>
