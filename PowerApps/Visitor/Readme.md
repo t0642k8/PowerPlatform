@@ -2,10 +2,10 @@
 
 ## Step 1 setting up SharePoint
 
-The Microsoft Crisis Communications App is a great concept and it has potential used at our workPlace. As I was attempting to modify it
- to make it fit better for our orginization, but every time I make a change, it would create more problems.
+When a visitor requests access to our work site an entire process for background checks
+have to be completed before access is granted . 
 
-I decided to start over and use the concepts that Microsoft used.
+
   
   
 <Table>
@@ -25,7 +25,7 @@ I decided to start over and use the concepts that Microsoft used.
     <td>&nbsp;</td><td>&nbsp;</td>
   </tr>
     <tr>
-    <td>3) Create a site and name it CrisisCommunications. You can pick any name but make sure it is one word.
+    <td>3) Create a site and name it Visitors. You can pick any name but make sure it is one word.
            There is another place to put the displayed title of the App with the format and spaces you want but  
            for now press OK.</td>
      <td><a href="images/s2_CreateSite.png"><img src="images/s2_CreateSite.png" width="250"></a></td>
