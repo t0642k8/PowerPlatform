@@ -7,7 +7,7 @@ have to be completed before access is granted .
 
 
   
-<table>
+<Table>
   
     <tr>
       <td> 1) Logon to office 365  (www.office.com). </td>
@@ -38,7 +38,7 @@ have to be completed before access is granted .
 
 
 
-</table>
+</Table>
   
 <Table>
   <tr>
