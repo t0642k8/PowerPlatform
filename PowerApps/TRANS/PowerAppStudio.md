@@ -1,0 +1,198 @@
+
+## Step 2 setting up Power Apps
+This is a continuation of the Crisis Communication Application for my Job.
+
+<Table>
+  <tr>
+    <td>1) Logon to office 365  (www.office.com) .</td>
+    <td> &nbsp; </td>
+  </tr>
+      <tr>
+    <td>&nbsp;</td><td>&nbsp;</td>
+  </tr>
+    <tr>
+    <td>2) Click on Power Applications </td>
+    <td><a href="images2/pa1_ClickPowerApp.png"><img src="images2/pa1_ClickPowerApp.png" width="250"></a></td>
+  </tr>
+
+   <tr>   
+    <td>&nbsp;</td><td>&nbsp;</td>
+  </tr>
+    <tr>
+    <td>3) Click on create.</td>
+     <td><a href="images2/pa2_clickCreate.png"><img src="images2/pa2_clickCreate.png" width="250"></a></td>
+  </tr>
+  <tr>  
+    <td>&nbsp;</td><td>&nbsp;</td>
+  </tr>
+    <tr>
+    <td>4) Click on "Canvas App from Blank".  </td>
+    <td><a href="images2/pa3_BlankCanvas.png"><img src="images2/pa3_BlankCanvas.png" width="250"></a></td>
+  </tr> 
+  <tr>  
+     <td>&nbsp;</td><td>&nbsp;</td>
+   <tr>
+    <td>5) Give your app a name. Remember this should be one work as later you will be given the opertunity to
+           enter the name of your program with the correct formating. </td>
+    <td><a href="images2/pa_5Givename.png"><img src="images2/pa_5Givename.png" width="250"></a></td>
+  </tr>
+
+   <tr>  
+    <td>&nbsp;</td><td>&nbsp;</td>
+  </tr>
+
+  <tr>
+     <td> 6)  The screen you see after the program is setup, this is the Design studio for application desktop. 
+              Two objects are already created for you. On the pannel on the left you should see The App and Screen.   </td>
+     <td>   <a href="images2/pa5_5Studio.png"><img src="images2/pa5_5Studio.png" width="250"></a></td>
+  </tr>
+
+   <tr>  
+    <td>&nbsp;</td><td>&nbsp;</td>
+  </tr>
+
+  <tr>
+    <td>7) Click on the elipses menu near the screen componet on the left side of the screen and select rename
+            Enter using the standard for all screen renames, all begin with "scr" followed by the function.
+            In this case rename the screen  - scrWelcome</td>
+    <td><a href="images2/AP7_rename.png"><img src="images2/AP7_rename.png" width="250"></a></td>
+  </tr>
+  
+  <tr>  
+    <td>&nbsp;</td><td>&nbsp;</td>
+  </tr>
+  
+   <tr>
+    <td> 8) On the right panel on the screen  we will select the background image. Background image isnt require
+           it all depends on your branding for the app.  Please note that well will spend time building the scrWelcome
+           screen to save time and duplicate the follow on screens.  </td>
+    <td><a href="images2/PA8Right.png"><img src="images2/PA8Right.png" width="250"></a></td>
+  </tr>   
+    
+  <tr>  
+    <td>&nbsp;</td><td>&nbsp;</td>
+  </tr>
+
+  <tr>
+     <td> 9) Now we will use a label as a title bar of the application. In the top menu first click
+             on insert then label.   </td>
+     <td>   <a href="images2/PA9_insertLbl.png"><img src="images2/PA9_insertLbl.png" width="250"></a></td>
+  </tr>
+
+  
+  <tr>  
+    <td>&nbsp;</td><td>&nbsp;</td>
+  </tr>
+
+  <tr>
+     <td> 10) On the left panel click the label1 elipse menu and select rename. Please enter the name lblTitleBar.   </td>
+     <td>   <a href="images2/pa10_renameLabel.png"><img src="images2/pa10_renameLabel.png" width="150"></a></td>
+  </tr>
+
+   <tr>  
+    <td>&nbsp;</td><td>&nbsp;</td>
+  </tr>
+
+  <tr>
+    <td> 11) With the newly labeled title bar highlighted on the left. In the center panel click and drag the label 
+              so it takes up the whole top of the scrWelcome screen. ".</td>
+    <td><a href="images2/pa11TopofScreen.png"><img src="images2/pa11TopofScreen.png" width="250"></a></td>
+  </tr>
+  
+  <tr>  
+    <td>&nbsp;</td><td>&nbsp;</td>
+  </tr>
+  
+   <tr>
+    <td> 12) Ensure that the label is still highlighted on the left. On the right make changes to these properties. 
+             Change text to "Home" and change font size to 26. </td>
+    <td><a href="images2/Pa12_TopEdit.png"><img src="images2/Pa12_TopEdit.png" width="150"></a></td>
+  </tr>   
+
+  
+  <tr>  
+    <td>&nbsp;</td><td>&nbsp;</td>
+  </tr>
+  
+   <tr>
+    <td> 13) Change the font color to white and change the background to a dark blue.  </td>
+    <td><a href="images2/PA13FontSizeFontcolor.png"><img src="images2/PA13FontSizeFontcolor.png" width="250"></a></td>
+  </tr>   
+  
+  <tr>  
+    <td>&nbsp;</td><td>&nbsp;</td>
+  </tr>
+  
+   <tr>
+    <td> 14) We are going to create a label that will display the login name of the user using the program.
+             select insert in the menu at the top and label.   </td>
+    <td><a href="images2/S14_permissions.png"><img src="images2/S14_permissions.png" width="250"></a></td>
+  </tr>   
+
+  <tr>  
+    <td>&nbsp;</td><td>&nbsp;</td>
+  </tr>
+
+  <tr>
+     <td> 15) Rename the label by right clicking the label . rogram   </td>
+     <td>   <a href="images/S15_OwnersClick.png"><img src="images/S15_OwnersClick.png" width="150"></a></td>
+  </tr>
+
+   <tr>  
+    <td>&nbsp;</td><td>&nbsp;</td>
+  </tr>
+
+  <tr>
+    <td> 16) In the text drop down                 ".</td>
+    <td><a href="images/S16_selectNew.png"><img src="images/S16_selectNew.png" width="250"></a></td>
+  </tr>
+  
+  <tr>  
+    <td>&nbsp;</td><td>&nbsp;</td>
+  </tr>
+  
+   <tr>
+    <td> 17) Belomn.  </td>
+    <td><a href="images/S12_AddColumn.png"><img src="images/S12_AddColumn.png" width="150"></a></td>
+  </tr>   
+
+  
+  <tr>  
+    <td>&nbsp;</td><td>&nbsp;</td>
+  </tr>
+  
+   <tr>
+    <td> 18) In the column name enter.  </td>
+    <td><a href="images/S13_Column.png"><img src="images/S13_Column.png" width="250"></a></td>
+  </tr>   
+  
+  <tr>  
+    <td>&nbsp;</td><td>&nbsp;</td>
+  </tr>
+  
+   <tr>
+    <td> 19) Next Select permissions.  </td>
+    <td><a href="images/S14_permissions.png"><img src="images/S14_permissions.png" width="250"></a></td>
+  </tr>   
+
+  <tr>  
+    <td>&nbsp;</td><td>&nbsp;</td>
+  </tr>
+  
+   <tr>
+    <td> 20) Belomn.  </td>
+    <td><a href="images/S12_AddColumn.png"><img src="images/S12_AddColumn.png" width="150"></a></td>
+  </tr>   
+
+  
+  <tr>  
+    <td>&nbsp;</td><td>&nbsp;</td>
+  </tr>
+  
+   <tr>
+    <td> 21) In the column name enter.  </td>
+    <td><a href="images/S13_Column.png"><img src="images/S13_Column.png" width="250"></a></td>
+  </tr>  
+
+
+  </table>
