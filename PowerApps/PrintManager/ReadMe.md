@@ -1,50 +1,196 @@
-# Print Manager
-----------------------------
+# How to build the Crisis Communication App.
 
-This program manages your customer print Jobs for other customers.
+## Step 1 setting up SharePoint
 
+The Microsoft Crisis Communications App is a great concept and it has potential used at our workPlace. As I was attempting to modify it
+ to make it fit better for our orginization, but every time I make a change, it would create more problems.
 
-1)  Go to https://www.office.com and login with our orginization's login.
-
+I decided to start over and use the concepts that Microsoft used.
+  
+  
 <Table>
   <tr>
-    <td>2) Select Power Apps.</td><td><a href="images/office1.png"><img src="images/office1.png" width="250"></a></td>
+   <td> 1) Logon to office 365  (www.office.com). </td>
+    <td> &nbsp; </td>
   </tr>
       <tr>
     <td>&nbsp;</td><td>&nbsp;</td>
   </tr>
     <tr>
-    <td>3) When the next windows opens Select Create apps (at the red arrow).</td><td><a href="images/create.png"><img src="images/create.png" width="250"></a></td>
+    <td>2) Click on SharePoint </td>
+    <td><a href="images/s1_SharePointStart.png"><img src="images/s1_SharePointStart.png" width="250"></a></td>
   </tr>
-  
-  <tr>
+
+   <tr>   
     <td>&nbsp;</td><td>&nbsp;</td>
   </tr>
     <tr>
-    <td>4) In the dialog box "Canvas from Blank", enter a name for your app It is a good idea not to use spaces in the appname at this point. You will have time later to add spaces. For name enter PrintMaster" Ensure the format is set to Tablet.</td><td><a href="images/appName.png"><img src="images/appName.png" width="250"></a></td>
+    <td>3) Create a site and name it CrisisCommunications. You can pick any name but make sure it is one word.
+           There is another place to put the displayed title of the App with the format and spaces you want but  
+           for now press OK.</td>
+     <td><a href="images/s2_CreateSite.png"><img src="images/s2_CreateSite.png" width="250"></a></td>
+  </tr>
+  <tr>  
+    <td>&nbsp;</td><td>&nbsp;</td>
+  </tr>
+    <tr>
+    <td>4) When the site is created click on the gear in the upper right .  (See arrow in picture)</td>
+    <td><a href="images/gear.png"><img src="images/gear.png" width="250"></a></td>
   </tr> 
+  <tr>  
      <td>&nbsp;</td><td>&nbsp;</td>
    <tr>
-    <td>5) You should see this screen. On the left is a list of the app compoments. Notice App and screen1 screen are already created for you..</td><td><a href="images/start1.png"><img src="images/start1.png" width="250"></a></td>
+    <td>5) Then select add an app.</td>
+    <td><a href="images/addanapp.png"><img src="images/addanapp.png" width="250"></a></td>
   </tr>
-      <tr>
+
+   <tr>  
     <td>&nbsp;</td><td>&nbsp;</td>
   </tr>
-    <tr>
-    <td>6) Lets rename our componets to something that fits each function.
-           Right click on Screen one and select rename. Rename this to ScrWelcome</td><td>
-           <a href="images/rename.png"><img src="images/rename.png" width="250"></a></td>
+
+  <tr>
+     <td> 6)  Then select a custom List   </td>
+     <td>   <a href="images/S6_CustomList.png"><img src="images/S6_CustomList.png" width="250"></a></td>
+  </tr>
+
+   <tr>  
+    <td>&nbsp;</td><td>&nbsp;</td>
+  </tr>
+
+  <tr>
+    <td>7) A windows will appear this is a place to enter a name for the list. It should have no spaces, but you change it later</td>
+    <td><a href="images/s7_Create.png"><img src="images/s7_Create.png" width="250"></a></td>
   </tr>
   
-  <tr>
-    <td>8) Select Power Apps.</td><td><a href="images/office1.png"><img src="images/office1.png" width="250"></a></td>
-  </tr>
-      <tr>
+  <tr>  
     <td>&nbsp;</td><td>&nbsp;</td>
   </tr>
-    <tr>
-    <td>9) When the next windows opens Select Create apps (at the red arrow).
-           </td><td><a href="images/create.png"><img src="images/create.png" width="250"></a></td>
+  
+   <tr>
+    <td> 8) Enter the name of "AppSettings". Then press create.  </td>
+    <td><a href="images/s8_Appset.png"><img src="images/s8_Appset.png" width="250"></a></td>
+  </tr>   
+    
+  <tr>  
+    <td>&nbsp;</td><td>&nbsp;</td>
+  </tr>
+
+  <tr>
+     <td> 9) Can you click on the name of the list you created.   </td>
+     <td>   <a href="images/s9_OpenCreated.png"><img src="images/s9_OpenCreated.png" width="250"></a></td>
+  </tr>
+
+  
+  <tr>  
+    <td>&nbsp;</td><td>&nbsp;</td>
+  </tr>
+
+  <tr>
+     <td> 10) When the new list is created, go to the upper right and click on the gear.   </td>
+     <td>   <a href="images/S10_Gear.png"><img src="images/S10_Gear.png" width="150"></a></td>
+  </tr>
+
+   <tr>  
+    <td>&nbsp;</td><td>&nbsp;</td>
+  </tr>
+
+  <tr>
+    <td> 11) In the window that opens select "List Settings".</td>
+    <td><a href="images/S11_ListSettings.png"><img src="images/S11_ListSettings.png" width="250"></a></td>
+  </tr>
+  
+  <tr>  
+    <td>&nbsp;</td><td>&nbsp;</td>
+  </tr>
+  
+   <tr>
+    <td> 12) Below the columns, click on the link add column.  </td>
+    <td><a href="images/S12_AddColumn.png"><img src="images/S12_AddColumn.png" width="150"></a></td>
+  </tr>   
+
+  
+  <tr>  
+    <td>&nbsp;</td><td>&nbsp;</td>
+  </tr>
+  
+   <tr>
+    <td> 13) In the column name enter "value" and in the maximum number of Characters enter 30. Then press OK.  </td>
+    <td><a href="images/S13_Column.png"><img src="images/S13_Column.png" width="250"></a></td>
   </tr>   
   
+  <tr>  
+    <td>&nbsp;</td><td>&nbsp;</td>
+  </tr>
+  
+   <tr>
+    <td> 14) Next Select permissions.  </td>
+    <td><a href="images/S14_permissions.png"><img src="images/S14_permissions.png" width="250"></a></td>
+  </tr>   
+
+  <tr>  
+    <td>&nbsp;</td><td>&nbsp;</td>
+  </tr>
+
+  <tr>
+     <td> 15) Click on the site owners group. This is the place you will put everyone that can change and administer the program   </td>
+     <td>   <a href="images/S15_OwnersClick.png"><img src="images/S15_OwnersClick.png" width="150"></a></td>
+  </tr>
+
+   <tr>  
+    <td>&nbsp;</td><td>&nbsp;</td>
+  </tr>
+
+  <tr>
+    <td> 16) Click on add new".</td>
+    <td><a href="images/S16_selectNew.png"><img src="images/S16_selectNew.png" width="250"></a></td>
+  </tr>
+  
+  <tr>  
+    <td>&nbsp;</td><td>&nbsp;</td>
+  </tr>
+  
+   <tr>
+    <td> 17) Enter the name you want entered last name first. Then press ok. </td>
+    <td><a href="images/S22_add.png"><img src="images/S22_add.png" width="150"></a></td>
+  </tr>   
+  
+  <tr>  
+    <td>&nbsp;</td><td>&nbsp;</td>
+  </tr>
+  
+   <tr>
+    <td> 18) Click on the members group. In this group we are going to add all the people in your orginization </td>
+    <td><a href="images/s23_groups.png"><img src="images/s23_groups.png" width="250"></a></td>
+  </tr>   
+  
+  <tr>  
+    <td>&nbsp;</td><td>&nbsp;</td>
+  </tr>
+  
+   <tr>
+    <td> 19) Click on new.  </td>
+    <td><a href="images/S14_permissions.png"><img src="images/S14_permissions.png" width="250"></a></td>
+  </tr>   
+
+  <tr>  
+    <td>&nbsp;</td><td>&nbsp;</td>
+  </tr>
+  
+   <tr>
+    <td> 20) Belomn.  </td>
+    <td><a href="images/S12_AddColumn.png"><img src="images/S12_AddColumn.png" width="150"></a></td>
+  </tr>   
+
+  
+  <tr>  
+    <td>&nbsp;</td><td>&nbsp;</td>
+  </tr>
+  
+   <tr>
+    <td> 21) In the column name enter.  </td>
+    <td><a href="images/S13_Column.png"><img src="images/S13_Column.png" width="250"></a></td>
+  </tr>  
+
+
   </table>
+
