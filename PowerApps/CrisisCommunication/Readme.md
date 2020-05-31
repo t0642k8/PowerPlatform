@@ -104,7 +104,7 @@ I decided to start over and use the concepts that Microsoft used.
       <td> 11) In the window that opens select "List Settings". </td>
     </tr>
     <tr>
-      <td><a href="images/S11_ListSettings.png"><img src="images/S11_ListSettings.png" width="550"></a></td>
+      <td><a href="images/S11_ListSettings.png"><img src="images/S11_ListSettings.png" width="350"></a></td>
     </tr>
     <tr>
       <td>&nbsp;</td>
