@@ -1,6 +1,6 @@
 
 ## Step 2 setting up Power Apps
-This is a continuation of the Crisis Communication Application for my Job.
+This is a continuation of the Crisis Communication Application which is a rewite of the Microsoft Crisis Communciation App.
 
 ### Note:
 <li> About graphics it is suggested you should always use the less detailed and most 
