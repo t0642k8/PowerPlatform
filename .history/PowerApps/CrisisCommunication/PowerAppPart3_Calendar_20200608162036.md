@@ -1,29 +1,31 @@
-# Welcome to Part 3 of the Crisis Communication Application 
+# Welcome to Part 2 of the Crisis Communication Application 
 ### version 1
 
 <Table>
     <tr>
-      <td> 1) On the Panel cate screen. </td>
+      <td> 1) On the Panel on the left , single click scrWelcome screen to select it. Right click an select
+              duplicate screen. </td>
     </tr>
-    <tr> <td><a href="images4/PA_part2-1.png"><img src="images4/PA_part2-1.png" width="350"></a></td><td>&nbsp;</td>
-    </tr>
-    <tr>
-      <td>&nbsp;</td>
-    </tr>
-    <tr>
-      <td> 2) Change t </td>
-    </tr>
-    <tr>
-      <td><a href="images4/paRenamePII2.png"><img src="images4/paRenamePII2.png" width="550"></a></td>
+    <tr> <td><a href="images3/PA_part2-1.png"><img src="images3/PA_part2-1.png" width="350"></a></td><td>&nbsp;</td>
     </tr>
     <tr>
       <td>&nbsp;</td>
     </tr>
     <tr>
-      <td> 3) On the Pane        PII </td>
+      <td> 2) Change the new Screen name to scrPII.. </td>
     </tr>
     <tr>
-      <td><a href="images4/PA_part2_PII.png"><img src="images4/PA_part2_PII.png" width="550"></a></td>
+      <td><a href="images3/paRenamePII2.png"><img src="images3/paRenamePII2.png" width="550"></a></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td> 3) On the Panel on the left select scrPII. Select the label named lblTitleBar_1 to lblTitleBar_PII.
+             In the right panel change the title property title from Home to PII </td>
+    </tr>
+    <tr>
+      <td><a href="images3/PA_part2_PII.png"><img src="images3/PA_part2_PII.png" width="550"></a></td>
     </tr>
     <tr>
       <td>&nbsp;</td>
@@ -32,10 +34,11 @@
       <td>&nbsp;</td>
     </tr>
     <tr>
-      <td> 4) On the left panel click to    ighted </td>
+      <td> 4) On the left panel click to select the beginning screen (scrWelcome). On the Home Screen click on the
+              Person icon to select it. Ensure that name lblPII is highlighted </td>
     </tr>
     <tr>
-      <td><a href="images4/PA4_Person.png"><img src="images4/PA4_Person.png" width="550"></a></td>
+      <td><a href="images3/PA4_Person.png"><img src="images3/PA4_Person.png" width="550"></a></td>
     </tr>
     <tr>
       <td>&nbsp;</td>
@@ -44,7 +47,7 @@
       <td> 5)  Ensure that the first drop down box say "OnSelect" and in the function box enter "Navigate(scrPII)" </td>
     </tr>
     <tr>
-      <td><a href="images4/PA5Function.png"><img src="images4/PA5Function.png" width="550"></a></td>
+      <td><a href="images3/PA5Function.png"><img src="images3/PA5Function.png" width="550"></a></td>
     </tr>
     <tr>
       <td>&nbsp;</td>
@@ -53,17 +56,17 @@
       <td> 6) On the left panel, click to select the screen scrPII </td>
     </tr>
     <tr>
-      <td><a href="images4/PA_P2_6clicktoSelect.png"><img src="images4/PA_P2_6clicktoSelect.png" width="250"></a></td>
+      <td><a href="images3/PA_P2_6clicktoSelect.png"><img src="images3/PA_P2_6clicktoSelect.png" width="250"></a></td>
     </tr>
     <tr>
       <td>&nbsp;</td>
     </tr>
     <tr>
-      <td> 7) On this screen is a diagnoser is correct. We are going to make
-             some labels for information bu. </td>
+      <td> 7) On this screen is a diagnostic screen to verify that the meta data for the user is correct. We are going to make
+             some labels for information boxes. Select insert and label from the top menu. </td>
     </tr>
     <tr>
-      <td><a href="images4/PA2_7_InsertALabel.png"><img src="images4/PA2_7_InsertALabel.png" width="550"></a></td>
+      <td><a href="images3/PA2_7_InsertALabel.png"><img src="images3/PA2_7_InsertALabel.png" width="550"></a></td>
     </tr>
     <tr>
       <td>&nbsp;</td>
@@ -72,13 +75,13 @@
       <td> 8)  Rename Label1 (or the new label) to lblCenter</td>
     </tr>
     <tr>
-      <td><a href="images4/PA2_8_Reame.png"><img src="images4/PA2_8_Reame.png" width="250"></a></td>
+      <td><a href="images3/PA2_8_Reame.png"><img src="images3/PA2_8_Reame.png" width="250"></a></td>
     </tr>
     <tr>
       <td>&nbsp;</td>
     </tr>   
     <tr>
-      <td> 9) Single click on lblCenter to select it, then nel. </td>
+      <td> 9) Single click on lblCenter to select it, then in the right panel make the following changes on that panel. </td>
     </tr>
     <tr>
       <td> <table>
@@ -91,7 +94,7 @@
              </td>
     </tr>
     <tr>
-      <td><a href="images4/PA2-9.png"><img src="images4/PA2-9.png" width="250"></a></td>
+      <td><a href="images3/PA2-9.png"><img src="images3/PA2-9.png" width="250"></a></td>
     </tr>
     <tr>
       <td>&nbsp;</td>
@@ -109,7 +112,7 @@
              </td>
     </tr>
     <tr>
-      <td><a href="images4/pa2-10.png"><img src="images4/pa2-10.png" width="250"></a></td>
+      <td><a href="images3/pa2-10.png"><img src="images3/pa2-10.png" width="250"></a></td>
     </tr>
     <tr>
       <td>&nbsp;</td>
@@ -118,7 +121,7 @@
       <td> 11) On the left, right click lblCenter and select copy</td>
     </tr>
     <tr>
-      <td><a href="images4/PA2_RightClickCenter.png"><img src="images4/PA2_RightClickCenter.png" width="250"></a></td>
+      <td><a href="images3/PA2_RightClickCenter.png"><img src="images3/PA2_RightClickCenter.png" width="250"></a></td>
     </tr>
     <tr>
       <td>&nbsp;</td>
@@ -127,7 +130,7 @@
       <td> 12) Right Click scrPII to select it. Select paste.</td>
     </tr>
     <tr>
-      <td><a href="images4/pa11.png"><img src="images4/pa11.png" width="250"></a></td>
+      <td><a href="images3/pa11.png"><img src="images3/pa11.png" width="250"></a></td>
     </tr>
     <tr>
       <td>&nbsp;</td>
@@ -197,7 +200,7 @@
       <td> 17) Your screen should look like the following</td>
     </tr>
     <tr>
-      <td><a href="images4/pa_lookLike.png"><img src="images4/pa_lookLike.png" width="550"></a></td>
+      <td><a href="images3/pa_lookLike.png"><img src="images3/pa_lookLike.png" width="550"></a></td>
     </tr>
     <tr>
       <td>&nbsp;</td>
@@ -226,14 +229,14 @@
        </td>
     </tr>
     <tr>
-      <td><a href="images4/PA2_19a.png"><img src="images4/PA2_19a.png" width="550"></a></td>
+      <td><a href="images3/PA2_19a.png"><img src="images3/PA2_19a.png" width="550"></a></td>
     </tr>
         <tr>
       <td> 20) With the lblTcenter label highlighted, on the top menu select text in the first dropdown and type this formula
              in the text box to the right.   Office365Users.MyProfile().City </td>
     </tr>
     <tr>
-      <td><a href="images4/PA2-19.png"><img src="images4/PA2-19.png" width="550"></a></td>
+      <td><a href="images3/PA2-19.png"><img src="images3/PA2-19.png" width="550"></a></td>
     </tr>
     <tr>
       <td>&nbsp;</td>
@@ -262,7 +265,7 @@
              in the text box to the right type  Dir </td>
     </tr>
     <tr>
-      <td><a href="images4/PA2_22.png"><img src="images4/PA2_22.png" width="550"></a></td>
+      <td><a href="images3/PA2_22.png"><img src="images3/PA2_22.png" width="550"></a></td>
     </tr>
     <tr>
       <td>&nbsp;</td>
