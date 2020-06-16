@@ -23,12 +23,6 @@ teams
       <td>&nbsp;</td>
     </tr>
     <tr>
-      <td>&nbsp;</td>
-    </tr>
-    <tr>
-      <td>&nbsp;</td>
-    </tr>
-    <tr>
       <td> 2) Select Power Automate </td>
     </tr>
     <tr>
