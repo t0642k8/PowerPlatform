@@ -1,0 +1,60 @@
+# Create a Registration Process for Microsoft Teams Live with Power Automate
+
+-----------------------------------------
+
+Reference  https://www.youtube.com/watch?v=Sl_JF4wiqec&t=1624s
+
+
+### Required items to complete this task:
+<li>  Event Title and Start time written down
+
+<li>  Teams Live Event attendee link
+
+<li>  SharePoint Location to store the ICS file
+
+<li>  Microsoft form stored on a group
+
+<li>  SharePoint List to capture the attendee list
+
+<br>
+<br>
+
+
+<table>
+  <tr>
+      <td><b>Step one. Create your teams live event.</b>
+      </td>
+  </tr>
+  <tr>
+      <td>&nbsp;
+      </td>
+  </tr>
+    <tr>
+      <td>1) Open your teams application.
+      </td>
+  </tr>
+  <tr>
+      <td>&nbsp;
+      </td>
+  </tr>
+      <tr>
+      <td>2) 
+      </td>
+  </tr>
+  <tr>
+      <td>&nbsp;
+      </td>
+  </tr>
+    <tr>
+      <td>&nbsp;
+      </td>
+  </tr>
+      <tr>
+      <td>3) 
+      </td>
+  </tr>
+  <tr>
+      <td>&nbsp;
+      </td>
+  </tr>
+</table>
