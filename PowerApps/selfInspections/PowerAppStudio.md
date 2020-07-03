@@ -1,0 +1,374 @@
+
+## Step 2 setting up Power Apps
+This is a continuation of the Crisis Communication Application which is a rewite of the Microsoft Crisis Communciation App.
+
+### Note:
+<li> About graphics it is suggested you should always use the less detailed and most 
+     general colors because people with disabilities like color blindness , and high
+     level of graphics will hurt the preformance of the application.
+<Table>
+    <tr>
+      <td> 1) Logon to office 365  (www.office.com). </td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td> 2) Click on Power Applications. </td>
+    </tr>
+    <tr>
+      <td><a href="images2/pa1_ClickPowerApp.png"><img src="images2/pa1_ClickPowerApp.png" width="550"></a></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td> 3) Click on create. </td>
+    </tr>
+    <tr>
+      <td><a href="images2/pa2_clickCreate.png"><img src="images2/pa2_clickCreate.png" width="550"></a></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+       <tr>
+      <td> 4) Click on "Canvas App from Blank". </td>
+    </tr>
+    <tr>
+      <td><a href="images2/pa3_BlankCanvas.png"><img src="images2/pa3_BlankCanvas.png" width="550"></a></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+    </tr> 
+    <tr>
+      <td> 5) Give your app a name. Remember this should be one work as later you will be given the opertunity to
+           enter the name of your program with the correct formating. </td>
+    </tr>
+    <tr>
+      <td><a href="images2/pa_5Givename.png"><img src="images2/pa_5Givename.png" width="550"></a></a></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td> 6)  The screen you see after the program is setup, this is the Design studio for application desktop. 
+              Two objects are already created for you. On the panel on the left you should see The App and Screen. </td>
+    </tr>
+    <tr>
+      <td><a href="images2/pa5_5Studio.png"><img src="images2/pa5_5Studio.png" width="550"></a></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+       <tr>
+      <td> 7) Click on the elipses menu near the screen componet on the left side of the screen and select rename.
+            Then we will enter a new name using the standard for all screens.  Name will begin with "scr" followed by the function.
+            In this case rename the screen  - scrWelcome . This should be the standard starting screen name for all the application I create.</td>
+    </tr>
+    <tr>
+      <td><a href="images2/AP7_rename.png"><img src="images2/AP7_rename.png" width="350"></a></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>  
+    <tr>
+      <td> 8) On the right panel ,  we will select the background image. Background image isnt require
+           it all depends on your branding for the app.  Please note that well will spend time building the scrWelcome
+           screen to save time and duplicate the follow on screens. </td>
+    </tr>
+    <tr>
+      <td><a href="images2/PA8Right.png"><img src="images2/PA8Right.png" width="350"></a></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+    </tr> 
+    <tr>
+      <td> 9) Now we will use a label as a title bar of the application. In the top menu first click
+             on insert then label.    </td>
+    </tr>
+    <tr>
+      <td><a href="images2/PA9_insertLbl.png"><img src="images2/PA9_insertLbl.png" width="550"></a></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td> 10) On the left panel click the label1 elipse menu and select rename. Please enter the name lblTitleBar.   </td>
+    </tr>
+    <tr>
+      <td><a href="images2/pa10_renameLabel.png"><img src="images2/pa10_renameLabel.png" width="350"></a></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+       <tr>
+      <td> 11) With the newly labeled title bar highlighted on the left. In the center panel click and drag the label 
+              so it takes up the whole top of the scrWelcome screen. ".</td>
+    </tr>
+    <tr>
+      <td><a href="images2/pa11TopofScreen.png"><img src="images2/pa11TopofScreen.png" width="550"></a></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+    </tr> 
+    <tr>
+      <td> 12) Ensure that the label is still highlighted on the left. On the right make changes to these properties. 
+             Change text to "Home" and change font size to 26. </td>
+    </tr>
+    <tr>
+      <td><a href="images2/Pa12_TopEdit.png"><img src="images2/Pa12_TopEdit.png" width="350"></a></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>  
+    <tr>
+      <td> 13) Change the font color to white and change the background to a dark blue.  </td>
+    </tr>
+    <tr>
+      <td><a href="images2/PA13FontSizeFontcolor.png"><img src="images2/PA13FontSizeFontcolor.png" width="250"></a></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+    </tr> 
+    <tr>
+     <td> 14) Next step we will create a sub menu bar. Go to the top menu , select insert and then label.</td>
+    </tr>
+    <tr>
+      <td><a href="images2/PA9_insertLbl.png"><img src="images2/PA9_insertLbl.png" width="550"></a></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+     <td> 15) In the label you created, left click on the name and select rename. Suggest enter the name
+               lblSubMenu.</td>
+    </tr>
+    <tr>
+      <td><a href="images2/pa10_renameLabel.png"><img src="images2/pa10_renameLabel.png" width="550"></a></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+     <td> 16) On the right menu remove the text from the Text property.</td>
+    </tr>
+    <tr>
+      <td><a href="images2/PA-16ARight.png"><img src="images2/PA-16ARight.png" width="450"></a></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+     <td> 17) Further down on the right panel is a place to change the color.  In the first highlighted box
+                is the font color I set it white. In the second highlighted box is the background I made mine a 
+                medium dark grey.</td>
+    </tr>
+    <tr>
+      <td><a href="images2/PA_17colors.png"><img src="images2/PA_17colors.png" width="450"></a></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td> 18) We are going to create a label that will display the login name of the user using the program.
+             select insert in the menu at the top and then select label.    </td>
+    </tr>
+    <tr>
+      <td><a href="images2/PA14_InsertLabel.png"><img src="images2/PA14_InsertLabel.png" width="550"></a></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td> 19) Rename the new label (label1) by right clicking the label and selecting rename. Enter
+              lblUserName for the name. </td>
+    </tr>
+    <tr>
+      <td><a href="images2/PA15-RightclickLabel.png"><img src="images2/PA15-RightclickLabel.png" width="350"></a></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+       <tr>
+      <td> 20) On the top in the first dropdown box select "text" and in the textbox to the right type this
+               "user().Fullname .</td>
+    </tr>
+    <tr>
+      <td><a href="images2/pa16_username.png"><img src="images2/pa16_username.png" width="450"></a></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+    </tr> 
+        <tr>
+      <td> 21) Change the font color to white   </td>
+    </tr>
+    <tr>
+      <td><a href="images2/PA13FontSizeFontcolor.png"><img src="images2/PA13FontSizeFontcolor.png" width="250"></a></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+    </tr> 
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+        <tr>
+      <td> 22)  THIS MAYBE A GREAT TIME TO SAVE YOUR WORK  </td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+     </tr>
+    <tr>
+      <td> 23) Go to the file menu. </td>
+    </tr>
+    <tr>
+      <td><a href="images/PA32_file.png"><img src="images/PA32_file.png" width="350"></a></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+     <tr>
+      <td> 24) Select Save and then do not click on publish.</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td> 25) Continuing on ... In the top menu select insert then icons </td>
+    </tr>
+    <tr>
+      <td><a href="images2/ppa34Icons.png"><img src="images2/ppa34Icons.png" width="550"></a></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+        <tr>
+      <td> 26) From the dropdown list select Home. We will program this to return to home page when pressed no mater
+              what screen you are on in the App. </td>
+    </tr>
+    <tr>
+      <td><a href="images2/PA35Home.png"><img src="images2/PA35Home.png" width="250"></a></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+      <tr>
+      <td> 27) On the left menu click on icon1 and change the name to icoHome </td>
+    </tr>
+    <tr>
+      <td><a href="images2/ppa34Icons.png"><img src="images2/ppa34Icons.png" width="350"></a></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td> 28) In the menu at the right change the font color to white for iconHome . </td>
+    </tr>
+    <tr>
+      <td><a href="images2/pa38MakeitWhite2.png"><img src="images2/pa38MakeitWhite2.png" width="350"></a></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td> 29) Place the icoHome Icon on the title bar and resize it to fit. </td>
+    </tr>
+    <tr>
+      <td><a href="images2/pa29a.png"><img src="images2/pa29a.png" width="550"></a></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+     <tr>
+      <td> 30) Now create a user icon to navigate to a Personal data page. Click on insert then click on icon. </td>
+    </tr>
+    <tr>
+      <td><a href="images2/ppa34Icons.png"><img src="images2/ppa34Icons.png" width="550"></a></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td> 31) From the dropdown list select The icon that looks like a head on a shoulder. It's name is person 
+               </td>
+    </tr>
+    <tr>
+      <td><a href="images2/PAShoulder.png"><img src="images2/PAShoulder.png" width="250"></a></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>  
+        <tr>
+      <td> 32) For this icon on the left panel rename it to icoPII,  on the right panel properties change font 
+              color to white. Finally place it on the top title bar next to home. </td>
+    </tr>
+    <tr>
+      <td><a href="images2/PAPersonPlacement.png"><img src="images2/PAPersonPlacement.png" width="550"></a></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td> 33) We now need to add functionality to these icons. Single click on the Home icon to ensure its 
+             selected, then ensure the dropdown box is set to OnSelect. 
+               </td>
+    </tr>
+    <tr>
+      <td><a href="images2/PANavHome.png"><img src="images2/PANavHome.png" width="550"></a></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>      
+      <tr>
+      <td> 34) .  Enter the formula into the formula box.  Navigate(scrWelcome)
+               </td>
+    </tr>
+    <tr>
+      <td><a href="images2/paHomeFunction.png"><img src="images2/paHomeFunction.png" width="550"></a></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+          <tr>
+      <td> 35)  THIS MAYBE A GREAT TIME TO SAVE YOUR WORK  </td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+     </tr>
+    <tr>
+      <td> 36) Go to the file menu. </td>
+    </tr>
+    <tr>
+      <td><a href="images/PA32_file.png"><img src="images/PA32_file.png" width="350"></a></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+     <tr>
+      <td> 37) Select Save and then do not click on publish.</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>     
+      <tr>
+      <td>&nbsp;</td>
+    </tr>
+     <tr>
+      <td> IN THE NEXT PART OF THE SETUP WE WILL ADD MORE SCREEN AND FUNCTIONS
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>     
+</Table>
+
