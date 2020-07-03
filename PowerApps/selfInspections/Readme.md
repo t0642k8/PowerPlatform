@@ -1,0 +1,307 @@
+# How to build the Crisis Communication App.
+### Version 1
+
+## Step 1 setting up SharePoint
+
+The Microsoft Crisis Communications App is a great concept and it has potential used at our workPlace. As I was attempting to modify it
+ to make it fit better for our organization, but every time I made a change, it would create more problems.
+
+I decided to start over, use the concepts that Microsoft used and make it the app more easily configurable  and 
+"Better Fit" for FLETC.  To Store the data I choose to use SharePoint online, because of licenses we already
+ have.  This storage should be a MS SQL to have the volume of an enterprize application. 
+  
+ <table>
+    <tr>
+      <td> 1) Logon to office 365  (www.office.com).  </td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td> 2) Click on SharePoint </td>
+    </tr>
+    <tr>
+      <td><a href="images/s1_SharePointStart.png"><img src="images/s1_SharePointStart.png" width="550"></a></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td> 3) Create a site and name it CrisisCommunications. You can pick any name but make sure it is one word.
+           There is another place to put the displayed title of the App with the format and spaces you want but  
+           for now press OK.</td>
+    </tr>
+    <tr>
+      <td><a href="images/s2_CreateSite.png"><img src="images/s2_CreateSite.png" width="550"></a></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td> 4) We will now create a list to store configuration of the app. When the site is created click 
+      on the gear in the upper right .  (See arrow in picture)</td>
+    </tr>
+    <tr>
+      <td><a href="images/gear.png"><img src="images/gear.png" width="550"></a></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+     </tr>
+    <tr>
+      <td> 5) Then select "add an app".</td>
+    </tr>
+    <tr>
+      <td><a href="images/addanapp.png"><img src="images/addanapp.png" width="550"></a></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td> 6) Then select a custom List  </td>
+    </tr>
+    <tr>
+      <td><a href="images/S6_CustomList.png"><img src="images/S6_CustomList.png" width="550"></a></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+     </tr>
+    <tr>
+      <td> 7) A windows will appear this is a place to enter a name for the list. It should have no spaces, but you change it later</td>
+    </tr>
+    <tr>
+      <td><a href="images/s7_Create.png"><img src="images/s7_Create.png" width="550"></a></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>  8) Enter the name of "AppSettings". Then press create. </td>
+    </tr>
+    <tr>
+      <td><a href="images/s8_Appset.png"><img src="images/s8_Appset.png" width="550"></a></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+     </tr>
+    <tr>
+      <td> 9) Can you double click on the name of the list you created to open it. </td>
+    </tr>
+    <tr>
+      <td> <a href="images/s9_OpenCreated.png"><img src="images/s9_OpenCreated.png" width="550"></a> </td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>  10) When the new list is created, go to the upper right and click on the gear.  </td>
+    </tr>
+    <tr>
+      <td><a href="images/S10_Gear.png"><img src="images/S10_Gear.png" width="550"></a></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+     </tr>
+    <tr>
+      <td> 11) In the window that opens select "List Settings". </td>
+    </tr>
+    <tr>
+      <td><a href="images/S11_ListSettings.png"><img src="images/S11_ListSettings.png" width="250"></a></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td> 12) Below the columns, click on the link add column. </td>
+    </tr>
+    <tr>
+      <td><a href="images/S12_AddColumn.png"><img src="images/S12_AddColumn.png" width="550"></a></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+     </tr> 
+    <tr>
+      <td>  13) In the column name enter "value" and in the maximum number of Characters enter 30. Then press OK.  </td>
+    </tr>
+    <tr>
+      <td><a href="images/S13_Column.png"><img src="images/S13_Column.png" width="550"></a></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+     </tr>
+     <tr>
+      <td> 14) Next Select permissions.  </td>
+    </tr>
+    <tr>
+      <td><a href="images/S14_permissions.png"><img src="images/S14_permissions.png" width="550"></a></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td> 15) Click on the site owners group. This is the place you will put everyone that can change and administer the program  </td>
+    </tr>
+    <tr>
+      <td><a href="images/S15_OwnersClick.png"><img src="images/S15_OwnersClick.png" width="550"></a></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+     </tr> 
+    <tr>
+      <td> 16) Click on add new. </td>
+    </tr>
+    <tr>
+      <td><a href="images/S16_selectNew.png"><img src="images/S16_selectNew.png" width="550"></a></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+     </tr> 
+    <tr>
+      <td> 17) Enter the name you want entered last name first. Then press ok.  </td>
+    </tr>
+    <tr>
+      <td><a href="images/S22_add.png"><img src="images/S22_add.png" width="550"></a></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+     </tr>
+    <tr>
+      <td>  18) Click on the members group. In this group we are going to add all the people in your orginization  </td>
+    </tr>
+    <tr>
+      <td><a href="images/s23_groups.png"><img src="images/s23_groups.png" width="550"></a></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td> 19) In the next window should look like below picture.   </td>
+    </tr>
+    <tr>
+      <td><a href="images/s24_MembersGroup.png"><img src="images/s24_MembersGroup.png" width="550"></a></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+     </tr>      
+   <tr>
+      <td>  20) In the next section we will add another list to support the user status of our orginization. In the
+             upper right of the screen click on the gear icon near your name  </td>
+    </tr>
+    <tr>
+      <td><a href="images/S10_Gear.png"><img src="images/S10_Gear.png" width="550"></a></td>
+    </tr>
+    <tr>
+      <td> 21) Then select "add an app".</td>
+    </tr>
+    <tr>
+      <td><a href="images/addanapp.png"><img src="images/addanapp.png" width="550"></a></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td> 22)  Then select a custom List  </td>
+    </tr>
+    <tr>
+      <td><a href="images/S6_CustomList.png"><img src="images/S6_CustomList.png" width="550"></a></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+     </tr>
+    <tr>
+      <td> 23) A windows will appear this is a place to enter a name for the list. It should have no spaces, but you change it later. 
+               For now enter UserStatus</td>
+    </tr>
+    <tr>
+      <td><a href="images/s7_Create.png"><img src="images/s7_Create.png" width="550"></a></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+       <tr>
+      <td>  24) In the next screen double click on the list you just created to open it.  </td>
+    </tr>
+    <tr>
+      <td><a href="images/S24_doubleclick.png"><img src="images/S24_doubleclick.png" width="550"></a></td>
+    </tr>
+    <tr>
+      <td> 25) When the window opens, click on the gear icon in the upper right.</td>
+    </tr>
+    <tr>
+      <td><a href="images/s25_Gear.png"><img src="images/s25_Gear.png" width="550"></a></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td> 26)  Click on list settings  </td>
+    </tr>
+    <tr>
+      <td><a href="images/S26_ListSettings.png"><img src="images/S26_ListSettings.png" width="350"></a></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+     </tr>
+    <tr>
+      <td> 27) In the lower half of the screen click on create another column. </td>
+    </tr>
+    <tr>
+      <td><a href="images/S27CreateColumn.png"><img src="images/S27CreateColumn.png" width="550"></a></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+     <tr>
+      <td> 28) Enter The name StartDate for the name of the column , verify that it is a Date Column.</td>
+    </tr>
+    <tr>
+      <td><a href="images/S28_StartDate.png"><img src="images/S28_StartDate.png" width="350"></a></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td> 29) Add Another column named "EndDate" with the other setting the same as before. </td>
+    </tr>
+    <tr>
+      <td><a href="images/S27CreateColumn.png"><img src="images/S27CreateColumn.png" width="550"></a></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+        <tr>
+      <td> 30) Add Another column named "status" , select a single line of text and give it a length of 50.
+             Then press ok to close </td>
+    </tr>
+    <tr>
+      <td><a href="images/S30_StatusCreate.png"><img src="images/S30_StatusCreate.png" width="350"></a></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td> 31) Click on the gear and create another custom list to store work accomplishments in. Name the
+               list WorkAccomplishments. Add Columns date, time, accomplishment, directorate, division, branch </td>
+    </tr>
+    <tr>
+      <td><a href="images/S30_StatusCreate.png"><img src="images/S30_StatusCreate.png" width="350"></a></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td> 32) Click on the gear and create another custom list to store log events in. Name the
+               list WorkAccomplishments. Add Columns date, time, event, directorate, division, branch </td>
+    </tr>
+    <tr>
+      <td><a href="images/S30_StatusCreate.png"><img src="images/S30_StatusCreate.png" width="350"></a></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+      </table>
+
+
+
