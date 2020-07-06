@@ -17,6 +17,9 @@ For this section wie will build a completely new screen.
       <td>&nbsp;</td>
     </tr>
     <tr>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
       <td> 2) On the left panel, Click scrCalendar to select it and in the top menu ensure the left dropdown box says onVisible, Then enter the code 
               below. </td>
     </tr>
@@ -81,8 +84,7 @@ For this section wie will build a completely new screen.
          <tr>
       <td>&nbsp;</td>
     </tr> 
-         <tr>
-      <td>&nbsp;</td>
+         <tr> <td>&nbsp;</td>
     </tr>   
     <tr>
       <td><a href="images4/PA4-3.png"><img src="images4/PA4-3.png" width="550"></a></td>
