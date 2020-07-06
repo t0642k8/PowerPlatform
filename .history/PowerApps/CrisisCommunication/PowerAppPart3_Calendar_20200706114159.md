@@ -80,10 +80,7 @@ For this section wie will build a completely new screen.
     </tr>
          <tr>
       <td>&nbsp;</td>
-    </tr> 
-         <tr>
-      <td>&nbsp;</td>
-    </tr>   
+    </tr>  
     <tr>
       <td><a href="images4/PA4-3.png"><img src="images4/PA4-3.png" width="550"></a></td>
     </tr>
