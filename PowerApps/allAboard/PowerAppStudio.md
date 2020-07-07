@@ -1,0 +1,207 @@
+
+## Step 2 setting up Power Apps
+This is a continuation of the News Application for the Teams site.
+
+<Table>
+  <tr>
+    <td>1) Logon to office 365  (www.office.com), then click pn Power apps .</td>
+    <td> &nbsp; </td>
+  </tr>
+      <tr>
+    <td>&nbsp;</td>
+  </tr>
+    <tr>
+    <td>2) Click on new app </td>
+  </tr>
+   <tr>   
+    <td>   <a href="images2/s2.png"><img src="images2/s2.png" width="700"></a></td>
+  </tr>
+    <tr>  
+    <td>&nbsp;</td>
+  </tr>
+    <tr>
+    <td>3) Click on canvas.</td>
+     </tr>
+    <tr>   
+     <td><a href="images2/pa3.png"><img src="images2/pa3.png" width="700"></a></td>
+  </tr>
+  <tr>  
+    <td>&nbsp;</td>
+  </tr>
+    <tr>
+    <td>4) Click on tablet layout.  </td>
+      </tr>
+    <tr>  
+    <td><a href="images2/s3a.png"><img src="images2/s3a.png" width="700"></a></td>
+  </tr> 
+  <tr>  
+     <td>&nbsp;</td>
+  <tr>
+     <td> 5)  This screen is the power App Studio, Please take time to look it over and take note of the componets on the screen.
+         </td>
+              </tr>
+    <tr>   
+     <td>   <a href="images2/pa5.png"><img src="images2/pa5.png" width="700"></a></td>
+  </tr>
+
+   <tr>  
+    <td>&nbsp;</td>
+  </tr>
+
+  <tr>
+    <td>6) Rename the screen on the left panel to scrWelcome</td>
+      </tr>
+    <tr>        
+    <td><a href="images2/pa6.png"><img src="images2/pa6.png" width="700"></a></td>
+  </tr>
+  
+  <tr>  
+    <td>&nbsp;</td>
+  </tr>
+  
+   <tr>
+    <td> 7) On the left panel click on scrWelcome to select it and in the top dropdown box ensure it say fill.
+            in the text box to the right of that make sure it has this code.  </td>
+     </tr>
+    <tr>        
+    <td><a href="images2/pa7.png"><img src="images2/pa7.png" width="700"></a></td>
+  </tr>   
+    
+  <tr>  
+    <td>&nbsp;</td>
+  </tr>
+
+  <tr>
+     <td> 8) In the insert menu insert a new label. Rename that label lbltitle .   </td>
+        </tr>
+    <tr>  
+     <td>   <a href="images2/pa9.png"><img src="images2/pa9.png" width="350"></a></td>
+  </tr>
+
+  <tr>  
+    <td>&nbsp;</td>
+  </tr>
+
+  <tr><td> 9) With lblTitle highlighted on the left , on the properties panel on the right panel
+          change the text and font size fields to reflect the Picture below.   </td>
+        </tr>
+    <tr>  
+     <td>   <a href="images2/pa9a.png"><img src="images2/pa9a.png" width="550"></a></td>
+  </tr>
+
+   <tr>  
+    <td>&nbsp;</td>
+  </tr>
+
+  <tr>
+    <td> 10) Lower on the right panel, you should see the properties for position and size.
+               ensure your setting match the picture</td>
+            </tr>
+    <tr>             
+    <td><a href="images2/pa10.png"><img src="images2/pa10.png" width="350"></a></td>
+  </tr>
+  <tr>  
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td> 11) In the top menu row, select the dropdown select "Fill" and in the text box ensure it has the
+             formula that is the same as the picture below. 
+    </td>
+  </tr>
+    <tr>  
+    <td><a href="images2/pa12.png"><img src="images2/pa12.png" width="700"></a></td>
+  </tr>   
+  <tr>  
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td> 12) In the top menu row select insert and icon.  </td>
+   </tr>
+  <tr>  
+    <td><a href="images2/pa12a.png"><img src="images2/pa12a.png" width="700"></a></td>
+  </tr>   
+  <tr>  
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td> 13) Select the icon that looks like a home   </td>
+   </tr>
+    <tr>  
+    <td><a href="images2/pa13.png"><img src="images2/pa13.png" width="550"></a></td>
+  </tr>   
+  <tr>  
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td> 14) Place the icoHome icon and place it in the to menu, ensure to resize it to fit   </td>
+   </tr>
+    <tr>  
+    <td><a href="images2/pa14.png"><img src="images2/pa14.png" width="700"></a></td>
+  </tr>  
+    <tr>  
+    <td>&nbsp;</td>
+  </tr> 
+    <tr>  
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td> 15) Now we need to change the color of the icoHome icon to see it. It the dropdown
+             in the upper menu , select fill and enter the code below in the text box to the right.   </td>
+   </tr>
+    <tr>  
+    <td><a href="images2/pa15.png"><img src="images2/pa15.png" width="700"></a></td>
+  </tr>  
+    <tr>  
+    <td>&nbsp;</td>
+  </tr> 
+  <tr>  
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td> 16) Click on scrHome to ensure its highlighted , click on insert in the top menu, then gallery. Select the vertical 
+              gallery.  </td>
+   </tr>
+    <tr>  
+    <td><a href="images2/pa16.png"><img src="images2/pa16.png" width="700"></a></td>
+  </tr>  
+    <tr>  
+    <td>&nbsp;</td>
+  </tr> 
+  <tr>  
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td> 17) On the left panel click on the cylinder looking Icon and in the search box type SharePoint.   </td>
+   </tr>
+    <tr>  
+    <td><a href="images2/pa17.png"><img src="images2/pa17.png" width="500"></a></td>
+  </tr>  
+    <tr>  
+    <td>&nbsp;</td>
+  </tr> 
+      <tr>  
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td> 18) .   </td>
+   </tr>
+    <tr>  
+    <td><a href="images2/pa15.png"><img src="images2/pa15.png" width="700"></a></td>
+  </tr>  
+    <tr>  
+    <td>&nbsp;</td>
+  </tr> 
+  <tr>  
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td> 16) Click on scrHome to ensure its highlighted , click on insert in the top menu, then gallery. Select the vertical 
+              gallery.  </td>
+   </tr>
+    <tr>  
+    <td><a href="images2/pa16.png"><img src="images2/pa16.png" width="700"></a></td>
+  </tr>  
+    <tr>  
+    <td>&nbsp;</td>
+  </tr> 
+  </table>
